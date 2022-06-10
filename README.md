@@ -1,5 +1,5 @@
 # Google Cloud Storage error-handling
-* Custom_retry.py: para cambiar los parámetros que vienen por default por google cloud storage (initial wait time, wait time multiplier per operation, max wait time). 
+* Custom_retry.py: funcion que permite customizar los parámetros de retry que vienen por default por google cloud storage (initial wait time, wait time multiplier per operation, max wait time). 
 
 * Conditional_retry_policy.py: define una clase que, según el error type (429, 500, 502, 503, 504), revisa los parámetros de la API call para chequear si es idempotente y, por ende, es seguro efectuar un retry. 
 
